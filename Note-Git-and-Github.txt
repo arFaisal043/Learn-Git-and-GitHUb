@@ -10,6 +10,10 @@ Untracked(U) --> Stage(A)
 -- Commit changes: $ git commit -m "Commit message"
 Saves a snapshot of staged changes with a clear, concise msg
 
+
+-- switch commit: 
+$git checkout commitID (switch to another commit by id)
+
 -- Check status: $ git status
 check history
 
