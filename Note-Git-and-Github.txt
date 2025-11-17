@@ -3,10 +3,13 @@ auto create a .git file that are hidden
 file will be untracked (U)
 
 
--- Stage changes: 
+-- Stage changes: git add hello.cpp(individual file) / git add .(for all file select)
+Untracked(U) to Stage(A)
 
 
--- Commit changes 
+-- Commit changes:
+Saves a snapshot of staged changes with a clear, concise msg
+
 -- Check status 
 -- Show changes in working directory 
 -- Show changes in staging area 
