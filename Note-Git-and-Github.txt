@@ -1,41 +1,43 @@
--- Initialize a repository: $ git init
+1. Initialize a repository: $ git init
 auto create a .git file that are hidden
 file will be untracked (U)
 
 
--- Stage changes: $ git add hello.cpp(individual file) / git add .(for all file select)
+2. Stage changes: $ git add hello.cpp(individual file) / git add .(for all file select)
 Untracked(U) --> Stage(A)
 
 
--- Commit changes: $ git commit -m "Commit message"
+3. Commit changes: $ git commit -m "Commit message"
 Saves a snapshot of staged changes with a clear, concise msg
 
 
--- switch commit: 
-$git checkout commitID (switch to another commit by id)
+4. switch commit: 
+$ git checkout commitID (switch to another commit by id)
+$ git stash (go to last commit)
 
--- Check status: $ git status
+
+5. Check status: $ git status
 check history
 
 
--- Show changes in working directory: $ git diff
+6. Show changes in working directory: $ git diff
 
 
--- View commit history: $ git log(full commit history) / $ git log --oneline(short commit history)
+7. View commit history: $ git log(full commit history) / $ git log --oneline(short commit history)
 
 
--- List branches: $ git branch
+8. List branches: $ git branch
 see all branch. current branch will be markdown by *
 
 
--- Create a branch: $ git branch branchName (by default has a main branch)
+9. Create a branch: $ git branch branchName (by default has a main branch)
 
 
--- Switch branches: $ git checkout branchName
+10. Switch branches: $ git checkout branchName
 
 
--- Merge branches: $ git merge branchName
-first work on new branch then If that work perfectly then merge with master/main branch
+11. Merge branches: $ git merge branchName
+first you should work on new branch then If that work perfectly then merge with master/main branch
 
 
 -- Fetch and merge from remote 
