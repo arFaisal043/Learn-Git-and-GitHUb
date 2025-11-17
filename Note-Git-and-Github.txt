@@ -10,15 +10,27 @@ Untracked(U) --> Stage(A)
 -- Commit changes: $ git commit -m "Commit message"
 Saves a snapshot of staged changes with a clear, concise msg
 
+
 -- Check status: $ git status
+check history
 
 
--- Show changes in working directory 
--- Show changes in staging area 
--- View commit history 
--- List branches 
--- Create a branch 
--- Switch branches 
+-- Show changes in working directory: $ git diff
+
+
+-- View commit history: $ git log(full commit history) / $ git log --oneline(short commit history)
+
+
+-- List branches: $ git branch
+see all branch. current branch will be markdown by *
+
+
+-- Create a branch: $ git branch branchName (by default has a main branch)
+
+
+-- Switch branches: git checkout branchName
+
+
 -- Merge branches 
 -- Fetch and merge from remote 
 -- Unstage changes 
