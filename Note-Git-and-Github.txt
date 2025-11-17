@@ -28,7 +28,7 @@ see all branch. current branch will be markdown by *
 -- Create a branch: $ git branch branchName (by default has a main branch)
 
 
--- Switch branches: git checkout branchName
+-- Switch branches: $ git checkout branchName
 
 
 -- Merge branches 
