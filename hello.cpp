@@ -4,6 +4,8 @@ using namespace std;
 
 int main() {
 
+    cout << "Hello world!";
+
     vector<int> arr = {2, 1, 4, 6, 78, 1, 124, 26, 47, 4, 2};
     int n = arr.size();
     cout << n << " ";
