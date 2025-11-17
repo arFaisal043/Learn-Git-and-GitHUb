@@ -1,0 +1,28 @@
+-- Git Topic:
+
+Initialize a repository 
+Stage changes 
+Commit changes 
+Check status 
+Show changes in working directory 
+Show changes in staging area 
+View commit history 
+List branches 
+Create a branch 
+Switch branches 
+Merge branches 
+Fetch and merge from remote 
+Unstage changes 
+Reset to last commit
+Discard changes in file Create GitHub account 
+Clone repository locally 
+Set remote repository 
+Push changes to GitHub 
+Fetch and merge changes from remote 
+Create pull request 
+Create new branch 
+Delete remote branch 
+Fork repository
+Fetch changes without merging 
+Clone with latest commits only 
+View file modification history
