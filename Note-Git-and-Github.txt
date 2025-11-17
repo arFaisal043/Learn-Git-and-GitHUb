@@ -14,13 +14,26 @@ Saves a snapshot of staged changes with a clear, concise msg
 check history
 
 
--- Show changes in working directory 
--- Show changes in staging area 
--- View commit history 
--- List branches 
--- Create a branch 
--- Switch branches 
--- Merge branches 
+-- Show changes in working directory: $ git diff
+
+
+-- View commit history: $ git log(full commit history) / $ git log --oneline(short commit history)
+
+
+-- List branches: $ git branch
+see all branch. current branch will be markdown by *
+
+
+-- Create a branch: $ git branch branchName (by default has a main branch)
+
+
+-- Switch branches: $ git checkout branchName
+
+
+-- Merge branches: $ git merge branchName
+first work on new branch then If that work perfectly then merge with master/main branch
+
+
 -- Fetch and merge from remote 
 -- Unstage changes 
 Reset to last commit
