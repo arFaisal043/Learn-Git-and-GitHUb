@@ -39,15 +39,19 @@ see all branch. current branch will be markdown by *
 11. Merge branches: $ git merge branchName
 first you should work on new branch then If that work perfectly then merge with master/main branch
 
+ 
+12. Clone repository locally:
 
--- Fetch and merge from remote 
--- Unstage changes 
-Reset to last commit
-Discard changes in file Create GitHub account 
-Clone repository locally 
+
 Set remote repository 
+
+
 Initialize a repository 
+
+
 Push changes to GitHub 
+
+
 Fetch and merge changes from remote 
 Create pull request 
 Create new branch 
