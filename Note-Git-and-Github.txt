@@ -40,20 +40,21 @@ see all branch. current branch will be markdown by *
 first you should work on new branch then If that work perfectly then merge with master/main branch
 
  
-12. Clone repository locally:
+12. Clone repository locally: $ git clone ___url__
 
 
-Set remote repository 
+13. Push changes to GitHub 
 
 
-Initialize a repository 
+14. Fetch and merge changes from remote: if any change from Remote, then want to update on locally.
+$ git fetch origin
+$ git merge origin/demo
+or 
+$ git pull (fetch + merge)
 
 
-Push changes to GitHub 
 
-
-Fetch and merge changes from remote 
-Create pull request 
+15. Create pull request 
 Create new branch 
 Delete remote branch 
 Fork repository
