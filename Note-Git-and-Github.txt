@@ -53,11 +53,10 @@ or
 $ git pull (fetch + merge)
 
 
+15.Create new branch: $ git branch branchName
 
-15. Create pull request 
-Create new branch 
-Delete remote branch 
-Fork repository
-Fetch changes without merging 
-Clone with latest commits only 
-View file modification history
+
+16. Delete remote branch: $ git push origin --delete branchName
+
+
+17. Fork repository
